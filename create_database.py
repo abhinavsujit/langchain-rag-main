@@ -30,8 +30,8 @@ def load_documents():
 
 def split_text(documents):
     text_splitter = RecursiveCharacterTextSplitter(
-        chunk_size = 600,
-        chunk_overlap = 150,
+        chunk_size=1000,          # ← allows full patient conversation in one chunk
+        chunk_overlap=300,        # ← ensures trailing context isn't lost
         length_function=len,
         add_start_index=True,
     )

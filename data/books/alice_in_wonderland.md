@@ -1,69 +1,101 @@
-# VOB Call Transcript – Multi-Patient Verification
+# VOB Call Transcript – Single Patient Deep Dive
 
-**VOB Specialist**: Hello, this is Priya calling from GeoPro Billing. I need to verify insurance benefits for a few patients.
+**VOB Specialist**: Hello, this is Priya from GeoPro Billing. I’m calling to verify insurance benefits for a patient.
 
-**Insurance Rep**: Sure, I can help you with that. Please give me the first patient’s details.
+**Insurance Rep**: Sure, I can help you with that. May I have the patient’s details?
 
-**VOB Specialist**: Patient name is Jane Miller, DOB April 7, 1982. Member ID is JM8234567.
+**VOB Specialist**: The patient’s name is **Emily Thompson**, date of birth **March 22, 1988**, and Member ID **ET987654321**.
 
-**Insurance Rep**: One moment while I pull her up... Okay, found her. She is active on a PPO Silver Plus plan, effective since Feb 1, 2023.
+**Insurance Rep**: Thank you. One moment... Alright, I found her. She's currently **active** under a **PPO Premier Plus** plan. Policy effective from **January 1, 2023**, and it's renewed for 2024 as well.
 
-**VOB Specialist**: Great. What’s the specialist visit copay and deductible?
+**VOB Specialist**: Great. What’s the **specialist visit** copay and deductible?
 
-**Insurance Rep**: Specialist copay is $40, deductible is $1,000 for individuals and $2,500 for family. Out-of-pocket max is $3,500 individual, $7,000 family.
+**Insurance Rep**: Specialist copay is **$35**. The annual **deductible** is **$750 individual**, **$1,500 family**. Out-of-pocket max is **$3,500** individual, **$7,000** family.
 
-**VOB Specialist**: Are telehealth visits covered?
+**VOB Specialist**: Does this plan require **referrals** for specialists?
 
-**Insurance Rep**: Yes, through Teladoc. Copay is $25, and it bypasses the deductible.
+**Insurance Rep**: No referrals needed. This is a **PPO**, so she can see any in-network specialist directly.
 
-**VOB Specialist**: Any pre-auth required for physical therapy?
+**VOB Specialist**: Is **telehealth** covered?
 
-**Insurance Rep**: Yes, pre-authorization is required after the 6th visit.
+**Insurance Rep**: Yes, telehealth is fully covered through **Amwell** and **Teladoc**. Copay is **$10**, and **does not apply to deductible**.
 
-**VOB Specialist**: Thank you. Let’s move to the next patient. Name: Carlos Alvarez, DOB January 3, 1976. Member ID: CA22334455.
+**VOB Specialist**: What about **mental health outpatient therapy**?
 
-**Insurance Rep**: Okay... He’s listed under an HMO Bronze plan with a $2,000 deductible and $50 copay for specialists. However, he needs to go through a PCP referral for any specialist visits.
+**Insurance Rep**: Covered at in-network providers. **$20 copay per session**, no visit limit. Deductible does not apply.
 
-**VOB Specialist**: Is he assigned to a PCP?
+**VOB Specialist**: And **psychiatrist visits**?
 
-**Insurance Rep**: Yes, Dr. Melissa Nair, NPI 1891734560.
+**Insurance Rep**: Yes, covered as a specialist. $35 copay applies. Prescriptions prescribed by psychiatrists are covered per the pharmacy benefit tier.
 
-**VOB Specialist**: Any note on recent plan changes?
+### 🏥 Inpatient Services
 
-**Insurance Rep**: Actually yes — he transitioned from a PPO to this HMO plan as of May 1, 2024. The PPO coverage ended April 30th.
+**VOB Specialist**: Is **inpatient hospitalization** covered?
 
-**VOB Specialist**: Got it. What’s the prior auth policy for imaging?
+**Insurance Rep**: Yes. In-network hospitals require **pre-authorization**. Once authorized, the copay is **$400 per admission**, then 80/20 cost sharing until the out-of-pocket max.
 
-**Insurance Rep**: All imaging including MRI, CT, PET scans require pre-authorization regardless of diagnosis.
+**VOB Specialist**: What about **residential substance abuse treatment**?
 
-**VOB Specialist**: Is there a copay for ER visits?
+**Insurance Rep**: Covered for both detox and residential. Pre-auth is mandatory. Limited to **30 days/year**, subject to **$200 per day copay for the first 5 days**, then covered 100%.
 
-**Insurance Rep**: Yes, $300, waived if admitted.
+**VOB Specialist**: What’s the coverage for **MRI, CT, and PET scans**?
 
-**VOB Specialist**: Noted. Next patient — Laura Bennett, DOB July 21, 1995. Member ID: LB99887766.
+**Insurance Rep**: All advanced imaging requires **pre-authorization**. Copay for each service is **$125**. Deductible **applies**, and then plan covers **80%**.
 
-**Insurance Rep**: She’s active under PPO Gold Executive. High coverage. Copay for specialists is just $20. Deductible is $250 individual, $750 family. OOP max is $1,500/$3,000.
+**VOB Specialist**: What about **basic labs and X-rays**?
 
-**VOB Specialist**: Wow. Any exclusions?
+**Insurance Rep**: Covered. No pre-auth required. **$15 copay** for labs, **$25 for X-rays**, no deductible.
 
-**Insurance Rep**: No major exclusions noted except cosmetic procedures and elective LASIK.
+**VOB Specialist**: Can you explain the **prescription drug tiers**?
 
-**VOB Specialist**: Telehealth?
+**Insurance Rep**: Certainly:
 
-**Insurance Rep**: Covered, no copay.
+- **Tier 1 (Generic)**: $10  
+- **Tier 2 (Preferred Brand)**: $30  
+- **Tier 3 (Non-Preferred)**: $60  
+- **Specialty medications**: 20% coinsurance up to $250 per script  
 
-**VOB Specialist**: Thank you. Can you check if there’s a gap in her coverage in the last 6 months?
+**VOB Specialist**: Is **prior auth or step therapy** needed?
 
-**Insurance Rep**: Let me check… [Pause] Nope, coverage is continuous since enrollment date: Jan 1, 2022.
+**Insurance Rep**: For some Tier 3 and Specialty drugs, yes. It depends on the formulary. Step therapy may apply for certain autoimmune or oncology meds.
 
-**VOB Specialist**: Thanks for confirming. Also, for Jane Miller again — is chiropractic care covered?
+**VOB Specialist**: ER visits?
 
-**Insurance Rep**: Covered, limited to 12 visits per year, subject to $40 copay.
+**Insurance Rep**: **$300 copay**, waived if the patient is **admitted**.
 
-**VOB Specialist**: Perfect. I think that’s all. Can I get a reference number for this call?
+**VOB Specialist**: Urgent care?
 
-**Insurance Rep**: Sure, it’s REF# 448238-CSP.
+**Insurance Rep**: **$50 copay**, deductible doesn’t apply.
 
-**VOB Specialist**: Thank you so much for your help!
+**VOB Specialist**: Chiropractic care?
 
-**Insurance Rep**: You’re welcome, have a great day!
+**Insurance Rep**: Covered. 20 visits/year. **$40 copay** per visit.
+
+**VOB Specialist**: Physical therapy?
+
+**Insurance Rep**: Covered for up to 30 visits/year. Pre-auth required after 6th visit. $30 copay per session.
+
+**VOB Specialist**: DME?
+
+**Insurance Rep**: Covered at 80% post deductible. Must be medically necessary and from an in-network vendor.
+
+**VOB Specialist**: Skilled nursing facility?
+
+**Insurance Rep**: Up to **90 days/year**. First 20 days fully covered, then $180/day thereafter.
+
+
+**VOB Specialist**: Are there any exclusions or non-covered services?
+
+**Insurance Rep**: Yes, cosmetic procedures, fertility treatments, and elective LASIK are excluded.
+
+**VOB Specialist**: Any **coordination of benefits (COB)** note?
+
+**Insurance Rep**: None listed at this time.
+
+**VOB Specialist**: Got it, thanks. Can I get a **reference number** for this call?
+
+**Insurance Rep**: Sure. Please note **REF# 998432-VOB-ET-PRIYA**.
+
+**VOB Specialist**: Thank you for your help!
+
+**Insurance Rep**: You're welcome! Have a great day.

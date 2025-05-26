@@ -40,5 +40,11 @@ def main():
     print(f"\n🔍 Response:\n{response_text}")
     print(f"\n📚 Sources: {sources}")
 
+    # 🗣️ Speak the response aloud
+    import pyttsx3
+    engine = pyttsx3.init()
+    engine.say(response_text)
+    engine.runAndWait()
+
 if __name__ == "__main__":
     main()
