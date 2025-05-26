@@ -43,7 +43,14 @@ def main():
     # 🗣️ Speak the response aloud
     import pyttsx3
     engine = pyttsx3.init()
-    engine.say(response_text)
+    if hasattr(response_text, "content"):
+        spoken_text = response_text.content
+    elif isinstance(response_text, dict) and "content" in response_text:
+        spoken_text = response_text["content"]
+    else:
+        spoken_text = str(response_text)
+
+    engine.say(spoken_text)
     engine.runAndWait()
 
 if __name__ == "__main__":
